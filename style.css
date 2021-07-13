@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Comfortaa', cursive;
+}
+
+header{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    /* padding: 3vh; */
+    justify-content: flex-end;
+}
+
+.midleNav{
+    width: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 22%;
+    padding-top: 4vh;
+}
+
+.rightNav{
+    width: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4vh;
+    padding-right: 4vh;
+}
+.rightNav img {
+    width: 1.6rem;
+    
+}
+
+#juiceVideo{
+    z-index: -1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.leftNav{
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10%;
+}
+
+.leftNav button{
+    width: 45%;
+    padding: 18px 0px;
+    font-size: 0.7rem;
+    background-color: rgb(233, 231, 233);
+    font-family: Comfortaa, cursive;
+    border-color: black;
+    border: 1px solid;
+    margin-bottom: -1px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: bold;
+}
+
+.dots{
+    font-weight: bolder;
+}
+
+
