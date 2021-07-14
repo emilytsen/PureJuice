@@ -24,8 +24,7 @@ nav{
 }
 
 .midleNav{
-    
-    width: 80vh;
+    width: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -35,7 +34,7 @@ nav{
 
 .rightNav{
     position: fixed;
-    width: 20vh;
+    width: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -58,11 +57,11 @@ nav{
 .slider{
     margin-top:3%;
     /* z-index: -1; */
-    width: 800px;
+    width: 700px;
     height: 500px;
     overflow: hidden;
     align-self: center;
-    margin-left: -7%;
+    margin-left: -8%;
 }
 .slides{
     width: 300%;
@@ -104,7 +103,7 @@ nav a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .leftNav{
@@ -117,9 +116,9 @@ nav a{
 }
 
 .leftNav button{
-    width: 60%;
+    width: 50%;
     padding: 25px 0px;
-    font-size: 1rem;
+    font-size: 0.7rem;
     background: transparent;
     font-family: Comfortaa, cursive;
     border: 1px solid  #c7d542;
@@ -133,19 +132,20 @@ nav a{
 }
 
 header h1{
-    margin-top: 10vh;
+    margin-top: 15vh;
+    margin-bottom: -5vh;
     font-family: 'Antonio', sans-serif;
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     align-self: center;
 }
 
 .order{
-    margin-top: 3%;
-    width: 30vh;
-    padding: 1% 0%;
-    font-size: 120%;
+    margin-top: 0%;
+    width: 27vh;
+    padding: 0.5% 0%;
+    font-size: 95%;
     background: transparent;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 5px;
     align-self: center;
     font-family: Comfortaa, cursive;
@@ -155,15 +155,15 @@ header h1{
 .navegationManual{
     position: absolute;
     width: 800px;
-    margin-left: 3.5%;
-    margin-top: 0px;
+    margin-left: 0.5%;
+    margin-top: -35px;
     display: flex;
     justify-content: center;
 }
 
 
 .manualBtn{
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
