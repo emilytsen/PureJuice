@@ -8,7 +8,8 @@
     <title>Pure Green Menu</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,18 +25,57 @@
                 <a href="#">Sign Up</a>
                 <a href="#"><img src="img\basket.png" alt=""></a>
             </div>
-            <video autoplay muted loop id="juiceVideo">
+            <h1>Best Sellers</h1>
+            <!-- <video autoplay muted loop id="juiceVideo">
                 <source src="img/gif.mp4" type="video/mp4">
-            </video>
+            </video> -->
+
+
+            <!-- IMAGE SLIDER -->
+            <div class="slider">
+                <div class="slides">
+                    <!-- RADIO BUTTONS -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4"> 
+                    <!-- SLIDE IMAGES -->
+                    <div class="slide juice1 first">
+                    </div>
+                    <div class="slide juice2">
+                       
+                    </div>
+                    <div class="slide juice3">
+                        
+                    </div>
+                    <div class="slide juice4">
+                        
+                    </div>
+                    <!-- AUTOMATIC NAVEGATION -->
+                    <div class="navegationAuto">
+                        <div class="autoBtn1"></div>
+                        <div class="autoBtn2"></div>
+                        <div class="autoBtn3"></div>
+                        <div class="autoBtn4"></div>
+                    </div>
+                </div>
+                <!-- MANUAL NAVEGATION -->
+                <div class="navegationManual">
+                    <label for="radio1" class="manualBtn start"></label>
+                    <label for="radio2" class="manualBtn"></label>
+                    <label for="radio3" class="manualBtn"></label>
+                    <label for="radio4" class="manualBtn"></label>
+                </div>
+            </div>
         </nav>
+
         <div class="leftNav">
             <button>Juice</a></button>
             <button>Shots</button>
             <button>Packs</button>
-            <button class="dots">☰</button>
-           
+            <button class="lines">☰</button>
         </div>
-        
+        <button class="order">Order Now</button>
     </header>
 </body>
 
